@@ -14,16 +14,15 @@ for _readme in (os.path.join(here, "README.md"), os.path.join(here, os.pardir, "
         break
 
 setuptools.setup(
-    name="airllm",
-    version="4.0.0",
-    author="Gavin Li",
+    name="airllm-turbo",
+    version="4.0.0.turbo1",
+    author="Gavin Li, Felipe Geroldi",
     author_email="gavinli@animaai.cloud",
-    description="AirLLM runs 70B large language models on a single 4GB GPU without quantization, "
-                "distillation or pruning. Kimi K3 2.8T on under 4GB, Qwen3.8-Flash-Next 125B on 6GB, "
-                "DeepSeek-V3 671B on ~12GB. Train Qwen3.8-Flash-Next under 6GB.",
+    description="AirLLM Turbo: High-performance optimized fork for ultra-frugal LLM inference and training "
+                "with static VRAM buffers, DRAM tiering, and speculative decoding.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/lyogavin/airllm",
+    url="https://github.com/fgeroldi/airllm-turbo",
     packages=setuptools.find_packages(),
     # Keep the dependency surface small and pinned to a tested range so a plain
     # `pip install airllm` gives users a known-good stack with no manual upgrades.

@@ -1,4 +1,6 @@
-![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true)
+# AirLLM Turbo
+
+High-performance optimized fork of AirLLM for ultra-frugal memory inference and training.
 
 [**Quickstart**](#quickstart) | 
 [**Configurations**](#configurations) | 
@@ -6,7 +8,7 @@
 [**Example notebooks**](#example-python-notebook) | 
 [**FAQ**](#faq)
 
-**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**.
+**AirLLM Turbo** is a high-performance fork of AirLLM that dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**.
 
 <a href="https://github.com/lyogavin/airllm/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>
 [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)
